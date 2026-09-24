@@ -1,0 +1,57 @@
+BODY {
+    color: #2e8b57; 
+    background: white url(Draft.jpg) no-repeat fixed center center;
+    font-family: "Times New Roman", Times, serif;
+} 
+
+H1, H2, H3, H4, H5, H6 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b8860b;
+} 
+
+ADDRESS {
+    font-size: 0.9em; 
+    font-style: italic;   
+    color: #2e8b57;
+} 
+
+BLOCKQUOTE {
+    background-color: #c1c1c1;
+    margin: 30px !important;      /* Bắt buộc xóa lùi lề trái/phải */
+    padding-left: 30px 0 !important;     /* Bắt buộc xóa khoảng đệm bên trái */  
+    color: #2e8b57;
+} 
+
+UL {
+    list-style: circle url(image/Apple.jpg) outside;
+} 
+
+UL B { 
+    color: rgb(155, 0, 28);
+} 
+
+A {
+    font-size: 0.9em; 
+    color: blue; /* Sửa lại lỗi color-green bị sai cú pháp */
+} 
+
+A:hover {
+    color: red; 
+    text-transform: uppercase;
+    font-weight: bold;
+} 
+
+.Special {
+    color: hwb(35 6% 20%); 
+    font-weight: bold;
+} 
+
+DIV.Article {
+    padding: 0.5em; 
+    border: 1px solid #7ea172;  
+    background-color: rgb(252,221,163);
+    width: 33%;  
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
