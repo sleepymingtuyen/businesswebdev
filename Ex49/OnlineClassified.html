@@ -1,0 +1,134 @@
+<html>
+    <head>
+        <title>Online Classifield</title>
+    </head>
+    <body style="background-color: #bce5f8;">
+        <h1 style="color: #cf0000;">Online Classifield Search Form</h1>
+    <hr/>
+        <form id="myForm">
+            <table>
+                <tr>
+                    <td style="font-weight: bold;">
+                        1) Search for a classified in the following sections:
+                    </td>
+                </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+                <tr>
+                    <td>
+                            <input type="radio" name="class" value="employment" id="employment">
+                            Employment
+                    </td>
+                    <td>
+                            <input type="radio" name="class" value="personal" id="personal">
+                            Personal
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            <input type="radio" name="class" value="forsale" id="forsale">
+                            For Sale
+                    </td>
+                    <td>
+                            <input type="radio" name="class" value="miscellanecus" id="miscellanecus">
+                            Miscellanecus
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                            <input type="radio" name="class" value="housing" id="housing">
+                            Housing
+                    </td>
+                    <td>
+                            <input type="radio" name="class" value="all" id="all">
+                            All of the above
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr style="font-weight: bold;">
+                    <td>
+                        2) Search the following publications:
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="midwest" value="midwest">
+                            Midwest times
+                    </td>
+                    <td>
+                        <input type="checkbox" name="modern" value="modern">
+                            Modern News
+                    </td>
+                    <td>
+                        <input type="checkbox" name="employment" value="employment">
+                            Employment Today
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="lakes" value="lakes">
+                            Great Lakes Classifieds
+                    </td>
+                    <td>    
+                        <input type="checkbox" name="middleton" value="middleton">
+                            Middleton Daily
+                    </td>
+                    <td>
+                        <input type="checkbox" name="cashtown" value="cashtown">
+                            Cashtown Daily News
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;" colspan="2">
+                        3) From 
+                        <input type="date" name="from">
+                        to
+                        <input type="date" name="to">
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;" colspan="2">
+                        4) Enter a few keywords to describe the classified.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="keywords" style="width: 100%;">
+                    </td>
+                </tr>
+                <tr>
+                    <td>&nbsp;</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: bold;">
+                        5) Click on of the options below:
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="image" src="image/Search.gif" alt="Search"
+                            onclick="alert('Giả lập Search thành công!'); return false;">
+
+                        <input type="image" src="image/Help.gif" alt="Help"
+                            onclick="window.open('https://lms.uel.edu.vn/login/forgot_password.php', '_blank'); return false;">
+
+                        <input type="image" src="image/Cancel.gif" alt="Cancel"
+                            onclick="cancelForm(); return false;">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>

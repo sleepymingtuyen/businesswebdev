@@ -1,0 +1,142 @@
+<html>
+    <head>
+        <title>Register</title>
+    </head>
+    <body style="background-color: rgb(162, 206, 255);">
+        <div style="text-align: center;">
+            <img src="image/Jackson.gif">
+        </div>
+        <h1 style="text-align: center;">Registration Form</h1>
+        <p style="text-align: center;">Register your Jackson Electronics products here</p>
+        <form id="myForm">
+            <table>
+                <tr>
+                    <td>First Name</td>
+                    <td>
+                        <input type="text" name="firstname" id="firstname">
+                    Last Name
+                        <input type="text" name="lastname" id="lastname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address #1</td>
+                    <td>
+                        <input type="text" name="add1" id="add1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address #2</td>
+                    <td>
+                        <input type="text" name="add2" id="add2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>City</td>
+                    <td>
+                        <input type="text" name="city" id="city">
+                    State
+                        <input type="text" name="state" id="state">
+                    Zip
+                        <input type="text" name="zip" id="zip">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Country</td>
+                    <td>
+                        <input type="text" name="country" id="country">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Product</td>
+                    <td>
+                        <select name="product">
+                            <option value="iphone">iPhone</option>
+                            <option value="samsung">Samsung</option>
+                            <option value="laptop">Laptop</option>
+                            <option value="ipad">iPad</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Date Purchased</td>
+                    <td>
+                        <input type="date" name="datepur">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Serial #</td>
+                    <td>
+                        <input type="text" name="serial">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="3" style="vertical-align: top;;">Used for</td>
+                    <td>
+                        <input type="radio" name="usedfor" value="home" id="home">
+                        <label for="home">Home</label>
+
+                        <input type="radio" name="usedfor" value="education" id="education">
+                        <label for="education">Educational Institution</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="usedfor" value="business" id="business">
+                        <label for="business">Business</label>
+
+                        <input type="radio" name="usedfor" value="other" id="other">
+                        <label for="other">Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="usedfor" value="government" id="government">
+                        <label for="government">Government</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>System (check all that apply)</td>
+                    <td>
+                        <input type="checkbox" name="system" value="windows">
+                        Windows
+
+                        <input type="checkbox" name="system" value="unix">
+                        UNIX
+
+                        <input type="checkbox" name="system" value="macintosh">
+                        Macintosh
+
+                        <input type="checkbox" name="system" value="other">
+                        Other
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <hr>
+                    </td>
+                </tr>
+                <tr>
+                    <td style="vertical-align: top;">Comments?</td>
+                    <td>
+                        <textarea name="comments" rows="8" cols="50"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="button" value="Click to register"
+                            onclick="alert('Đăng ký')">
+
+                        <input type="button" value="Click to cancel"
+                            onclick="document.getElementById('myForm').reset()">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
